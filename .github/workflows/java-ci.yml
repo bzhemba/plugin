@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: greeting
       id: hello
-      uses: bzhemba/plugin@v1
+      uses: bzhemba/plugin@v2
       with:
         who-to-greet: "Maria"
     - name: Get the output time
