@@ -1,3 +1,4 @@
+
 name: Java CI
 
 on: [push]
@@ -5,12 +6,6 @@ on: [push]
 jobs:
   hi:
     runs-on: [ubuntu-latest]
-    name: A job to say hello
     steps:
     - name: greeting
-      id: hello
-      uses: bzhemba/plugin@v3
-      with:
-        who-to-greet: "Maria"
-    - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+      run: echo "hello, this project can help you with workin in InteliJ IDEA"
